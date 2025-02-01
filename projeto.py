@@ -46,7 +46,7 @@ def main():
 
     st.sidebar.title("Upload your file")
     uploaded_file = st.sidebar.file_uploader("Upload a file:", type=["csv", "excel", "ftr"])
-    data_file_1 = "./input/credit_scoring.ftr"
+    data_file_1 = "./Input/credit_scoring.ftr"
 
 
     if (data_file_1 is not None):
